@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Regina’s Daycare | Cuidado Infantil con Amor</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body class="bg-orange-50 text-gray-800 font-sans">
+  
+  <!-- 🌈 Header -->
+  <header class="bg-gradient-to-r from-orange-400 to-pink-400 text-white shadow-lg">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <h1 class="text-2xl font-bold">Regina’s Daycare</h1>
+      <nav class="space-x-6 text-lg">
+        <a href="#inicio" class="hover:underline">Inicio</a>
+        <a href="#servicios" class="hover:underline">Servicios</a>
+        <a href="#galeria" class="hover:underline">Galería</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 🌟 Hero Section -->
+  <section id="inicio" class="flex flex-col-reverse lg:flex-row items-center justify-center text-center lg:text-left py-16 px-6 lg:px-20">
+    <div class="lg:w-1/2 space-y-6 animate-fadeIn">
+      <h2 class="text-4xl lg:text-5xl font-extrabold text-orange-500">Cuidamos a tus pequeños con amor y aprendizaje</h2>
+      <p class="text-lg text-gray-700">En Regina’s Daycare ofrecemos un ambiente seguro, divertido y educativo donde tus hijos podrán crecer felices.</p>
+      <a href="#contacto" class="bg-orange-500 text-white px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-orange-600 transition-all">Agenda una visita</a>
+    </div>
+    <div class="lg:w-1/2">
+      <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_tijmpv3p.json"  background="transparent"  speed="1"  style="width: 100%; height: 400px;"  loop  autoplay></lottie-player>
+    </div>
+  </section>
+
+  <!-- 🧸 Servicios -->
+  <section id="servicios" class="bg-white py-16 px-6 lg:px-20 text-center">
+    <h3 class="text-3xl font-bold mb-10 text-orange-500">Nuestros Servicios</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div class="bg-orange-100 p-6 rounded-2xl shadow hover:scale-105 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/3204/3204105.png" class="w-20 mx-auto mb-4" alt="Cuidado diario">
+        <h4 class="text-xl font-semibold">Cuidado Diario</h4>
+        <p>Atención personalizada para niños desde bebés hasta edad preescolar, con personal calificado.</p>
+      </div>
+      <div class="bg-orange-100 p-6 rounded-2xl shadow hover:scale-105 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/3471/3471609.png" class="w-20 mx-auto mb-4" alt="Actividades educativas">
+        <h4 class="text-xl font-semibold">Actividades Educativas</h4>
+        <p>Programas diseñados para fomentar la creatividad, el lenguaje y el desarrollo cognitivo.</p>
+      </div>
+      <div class="bg-orange-100 p-6 rounded-2xl shadow hover:scale-105 transition">
+        <img src="https://cdn-icons-png.flaticon.com/512/1864/1864515.png" class="w-20 mx-auto mb-4" alt="Comida saludable">
+        <h4 class="text-xl font-semibold">Comida Saludable</h4>
+        <p>Alimentos nutritivos y balanceados para asegurar el bienestar de tus pequeños.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🎨 Galería -->
+  <section id="galeria" class="py-16 px-6 lg:px-20 bg-orange-50">
+    <h3 class="text-3xl font-bold mb-10 text-center text-orange-500">Galería</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <img src="https://source.unsplash.com/400x300/?kids,play" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://source.unsplash.com/400x300/?children,learning" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://source.unsplash.com/400x300/?kindergarten,classroom" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://source.unsplash.com/400x300/?teacher,kids" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://source.unsplash.com/400x300/?school,toys" class="rounded-xl shadow hover:scale-105 transition" />
+      <img src="https://source.unsplash.com/400x300/?children,art" class="rounded-xl shadow hover:scale-105 transition" />
+    </div>
+  </section>
+
+  <!-- ☎️ Contacto -->
+  <section id="contacto" class="py-16 px-6 lg:px-20 bg-white text-center">
+    <h3 class="text-3xl font-bold text-orange-500 mb-8">Contáctanos</h3>
+    <form class="max-w-lg mx-auto space-y-4">
+      <input type="text" placeholder="Tu nombre" class="w-full p-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-400">
+      <input type="email" placeholder="Tu correo" class="w-full p-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-400">
+      <textarea placeholder="Tu mensaje" class="w-full p-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-400"></textarea>
+      <button class="bg-orange-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-orange-600 transition">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- 🌻 Footer -->
+  <footer class="bg-orange-400 text-white text-center p-4">
+    <p>&copy; 2025 Regina’s Daycare. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- ✨ Animaciones suaves -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const elements = document.querySelectorAll(".animate-fadeIn");
+      elements.forEach((el, i) => {
+        el.style.opacity = 0;
+        setTimeout(() => {
+          el.style.transition = "opacity 1s ease";
+          el.style.opacity = 1;
+        }, i * 200);
+      });
+    });
+  </script>
+
+</body>
+</html>
